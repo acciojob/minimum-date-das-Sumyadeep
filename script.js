@@ -1,10 +1,10 @@
 function minDate(dates) {
   //write you code here
-	let min_date = "9999/99/99"
+	let min_date = "9999/99/99";
 
-    for date in dates{
+    for (date of dates){
 		
-        if date < min_date{
+        if (date < min_date){
 			
             min_date = date;
 		}
@@ -49,6 +49,7 @@ var dates = [
 ];
 
 alert(minDate(dates));
+
 
 
 
