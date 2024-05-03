@@ -6,11 +6,11 @@ function minDate(dates) {
 		
         if date < min_date{
 			
-            min_date = date
+            min_date = date;
 		}
 	}
     
-    return min_date
+    return min_date;
 }
 
 // Do not change the code
